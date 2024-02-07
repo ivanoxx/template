@@ -1,8 +1,8 @@
-version:          "0028a--05-Feb-2024"
-copyright:        "2021-2024"
-title:            "Jekyll: GitHub Page Template"
-author:           "J. Walker"
-address:          "Box 7, Mawitaan, Bangalla."
+version:          "001--07-Feb-2024"
+copyright:        "2024-2024"
+title:            "SP241: Jekyll Template Fork"
+author:           "Ivanox"
+address:          "Konohagakure"
 description:
   This is a
   GitHub Page Template description. 
@@ -23,19 +23,19 @@ navbarlinks:
 - navbar:         "TarBall"
   link:           "/template.tar.xz"
 - navbar:         "GitHub"
-  link:           "https://github.com/yforku/template/"
+  link:           "https://github.com/ivanoxx/template/"
 - navbar:         "Listing"
   link:           "/000.html"
 - navbar:         "About"
   link:           "/ABOUT/"
 - navbar:         "GitHub Page"
-  link:           "https://template.vlsm.org/"
+  link:           "https://ivanoxx.github.io/template/"
 lang:             "en-US"
 sitemap:          "true"
 markdown:         "kramdown"
-urlweb:           "https://template.vlsm.org/"
+urlweb:           "https://ivanoxx.github.io/template/"
 urlcontact:       "TBA"
-urlgithub:        "https://github.com/yforku/template/"
+urlgithub:        "https://github.com/ivanoxx/template/"
 google_analytics: "G-KPSLWHN6H7"
 plugins:
 - jekyll-sitemap
