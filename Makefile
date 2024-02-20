@@ -14,7 +14,7 @@ ALL: 000.md
         _includes/navbar.html \
         _includes/footer.html _includes/head.html _includes/google-analytics.html \
 	assets/css/style.css assets/scripts/includeScript.py 
-	python assets/scripts/includeScript.py < 000.pmd > 000.md
+	python3 assets/scripts/includeScript.py < 000.pmd > 000.md
 	tar cfJ ./template.tar.xz _config.yml .dojekyll .gitignore .template .shsh Gemfile LICENSE Makefile *.ico *.md *.pmd assets/ _includes/ _layouts/ SandBox/
 	zip -r ./template.zip _config.yml .dojekyll .gitignore .template .shsh Gemfile LICENSE Makefile *.ico *.md *.pmd assets/ _includes/ _layouts/ SandBox/
 
